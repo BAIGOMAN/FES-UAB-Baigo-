@@ -1,8 +1,8 @@
 #ejercicio 1
 
-valor = float (input("Quants paquets ha rebut l'encaminador? Introdueix el numero: "))
-print(round(valor))
-print(int(1200) + int(valor))
+valor = str(input("Quants paquets ha rebut l'encaminador? Introdueix el numero: "))
+valor = int(valor)
+print(int(1200) + int(valor)) #print( 1200 + int("valor"))
 #print( "1200" + str(int(valor))) esto era para concatenar los numeros no sumarlos. 
 
 #ejercicio 2
