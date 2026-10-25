@@ -1,3 +1,4 @@
+"""""
 #Ejercicio 1
 print("\nExercici 1:")
 
@@ -15,3 +16,16 @@ else:
 #Ejercicio 2
 print("\nExercici 2:")
 
+paraula_1 = "Hola"
+paraula_2 = "hola"
+es_igual = paraula_1 == paraula_2
+print(es_igual)
+
+"""
+#Ejercicio 3
+print("\nExercici 3:")
+
+router_encès = True
+connexio_activa = False
+xarxa_disponible = router_encès and connexio_activa
+print(xarxa_disponible)
