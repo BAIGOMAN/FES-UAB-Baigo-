@@ -21,11 +21,15 @@ paraula_2 = "hola"
 es_igual = paraula_1 == paraula_2
 print(es_igual)
 
-"""
+
 #Ejercicio 3
 print("\nExercici 3:")
 
 router_encès = True
 connexio_activa = False
 xarxa_disponible = router_encès and connexio_activa
-print(xarxa_disponible)
+print(f"Xarxa disponible: {xarxa_disponible}")
+"""
+
+#Ejercicio 4
+print("\nExercici 4:")
