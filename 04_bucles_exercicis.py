@@ -49,13 +49,21 @@ while contador <10:
     print(f"{contador} * {num} = {multiplicacion}")
 
 """
+
 # Exercici 6: Números primers fins a N
 
-num = int(input("Introduce un numero positivo: "))
-contador = 1
+num = int(input("Introdueix un número enter positiu N: "))
 
+contador = 2
 while contador <= num:
-    
-    if num % contador == 0:
-        print(f"{contador}")
-    contador += 1
+  es_primer = True  # Assumim que el número és primer fins que es demostri el contrari
+  divisor = 2
+  while divisor * divisor <= contador:  # Optimitzem: no cal provar divisors fins a numero
+    if contador % divisor == 0:
+      es_primer = False  # Si trobem un divisor, no és primer
+      break  # Sortim del bucle interior
+    divisor += 1
+  if es_primer:
+    print(contador)
+
+  contador += 1
