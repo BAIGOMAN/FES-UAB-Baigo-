@@ -48,7 +48,7 @@ while contador <10:
     multiplicacion = contador * num
     print(f"{contador} * {num} = {multiplicacion}")
 
-"""
+
 
 # Exercici 6: Números primers fins a N
 
@@ -66,3 +66,17 @@ while contador <= num:
     print(contador)
 
   contador += 1
+
+  # Exercici 7: Suma fins al zero
+
+es_zero = False
+suma = 0
+
+while not es_zero:
+    num1 = int(input("Introduce un numero entero (0 para acabar)"))
+    if num1 == 0:
+        es_zero = True
+    else:
+        suma +=num1
+print(f"La suma es: {suma}")
+"""
