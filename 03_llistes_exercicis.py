@@ -1,4 +1,4 @@
-""""
+
 #Ejercicio 1
 print("\nExercici 1:")
 
@@ -65,11 +65,44 @@ llista_a.remove(1)
 element_eliminat = llista_a.pop(3)
 print(element_eliminat)
 llista_b.clear()
+print("Llista a:", llista_a)
+print("Llista b:", llista_b) 
 
-"""
-#Ejercicio 2
-print("\nExercici 2:")
+
+#Ejercicio 3
+print("\nExercici 3:")
 
 lista = [1,2,3,4,5,6,7,8,9,10]
 del lista[2:4]
+print(lista)
+
+#Ejercicio 4
+print("\nExercici 4:")
+
+lista =[5, 2, 8, 1, 9, 4, 2]
+lista.sort()
+num_2 = lista.count(2)
+hay_el_7 = 7 in lista
+print(f"Llista ordenada: {lista}")
+print(f"Número de vegades que apareix el 2: {num_2}")
+print(f"Hi ha un 7 a la llista: {hay_el_7}")
+
+#Ejercicio 5
+print("\nExercici 5:")
+
+lista = [1,2,3]
+copia_1 = lista[:]
+copia_2 = lista.copy()
+referencia = lista
+lista [0] = 10
+print(f"Lista original: {lista}")
+print(f"Copia 1: {copia_1}")
+print(f"Copia 2: {copia_2}")
+print(f"Referencia: {referencia}")
+
+#Ejercicio 6
+print("\nExercici 6:")
+
+lista = ["Poma", "pera", "PLÀTAN", "taronja"]
+lista.sort(key=str.lower)
 print(lista)
