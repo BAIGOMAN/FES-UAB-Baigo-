@@ -56,12 +56,11 @@ num = int(input("Introdueix un número enter positiu N: "))
 
 contador = 2
 while contador <= num:
-  es_primer = True  # Assumim que el número és primer fins que es demostri el contrari
+  es_primer = True 
   divisor = 2
-  while divisor * divisor <= contador:  # Optimitzem: no cal provar divisors fins a numero
+  while divisor * divisor <= contador and es_primer: 
     if contador % divisor == 0:
-      es_primer = False  # Si trobem un divisor, no és primer
-      break  # Sortim del bucle interior
+      es_primer = False  
     divisor += 1
   if es_primer:
     print(contador)
