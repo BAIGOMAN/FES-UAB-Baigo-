@@ -94,5 +94,5 @@ while quedan_cifras:
     else:
         mida += 1
 
-print(f"La mida del número es: {mida}")
+print(f"La medida del número es: {mida}")
 """
