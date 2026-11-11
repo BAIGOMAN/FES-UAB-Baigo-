@@ -79,4 +79,20 @@ while not es_zero:
     else:
         suma +=num1
 print(f"La suma es: {suma}")
+
+# Exercici 8: Comptar les xifres d'un número
+
+num = int(input("Introduce n numero entero: "))
+quedan_cifras = True
+mida = 1
+aux = num
+
+while quedan_cifras:
+    aux = aux/10
+    if aux < 1:
+        quedan_cifras = False
+    else:
+        mida += 1
+
+print(f"La mida del número es: {mida}")
 """
