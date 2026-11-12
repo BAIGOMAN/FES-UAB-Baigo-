@@ -96,3 +96,16 @@ while quedan_cifras:
 
 print(f"La medida del número es: {mida}")
 """
+# Exercici 9: Seqüència de Fibonacci
+
+numF = int(input("Introduce el numero secuancias de fibonacci que quieres ver: "))
+contador = 0
+suma = 1
+sumaant = 0
+actual = 0
+
+while contador < numF:
+     print(sumaant,)
+    siguiente = sumaant + suma
+    sumaant = 
+    contador +=1 
