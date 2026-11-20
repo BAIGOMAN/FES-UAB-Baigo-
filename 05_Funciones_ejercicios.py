@@ -1,3 +1,4 @@
+"""
 # Exercici 1: Funció de salutació
 # Crea una funció saludar_a(nom, salutacio="Hola") que imprimeixi la salutació seguida del nom.
 # Prova-la amb i sense el segon argument.
@@ -15,4 +16,10 @@ def es_parell(num):
     return num % 2 == 0
 
 print(es_parell(9))
-print(es_parell(8)\n)
+print(es_parell(8))
+"""
+# Exercici 3: Mitjana d'una llista
+print("\nExercici 3:")
+
+def mitjana(nums)
+    
