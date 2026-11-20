@@ -7,3 +7,14 @@ def saludar_a(nom,salutacio="Hola"):
 
 saludar_a("Mireia")
 saludar_a("Mireia, Bon dia")
+
+# Exercici 2: Parell o senar
+# Crea una funció es_parell(numero) que retorni True si el número és parell i False si no ho és.
+
+def es_parell(num):
+    par = False
+    if num % 2 == 0:
+        par = True
+    return par
+
+print(f"{par}")
