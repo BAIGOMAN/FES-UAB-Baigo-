@@ -21,5 +21,11 @@ print(es_parell(8))
 # Exercici 3: Mitjana d'una llista
 print("\nExercici 3:")
 
-def mitjana(nums)
-    
+def mitjana(nums):
+    num=0
+    suma = 0
+    for num in nums:
+        suma+=num
+    return suma/len(nums)
+
+print(mitjana([1,2,3,3,4,5]))
