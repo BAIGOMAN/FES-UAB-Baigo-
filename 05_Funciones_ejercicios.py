@@ -17,7 +17,7 @@ def es_parell(num):
 
 print(es_parell(9))
 print(es_parell(8))
-"""
+
 # Exercici 3: Mitjana d'una llista
 print("\nExercici 3:")
 
@@ -29,3 +29,16 @@ def mitjana(nums):
     return suma/len(nums)
 
 print(mitjana([1,2,3,3,4,5]))
+"""
+# Exercici 4: Suma amb *args
+print("\nExercici 4:")
+
+def sumar(*args): 
+    suma=0
+    for num in args:
+        suma+=num
+    return suma
+
+print(sumar(1, 2))
+print(sumar(1, 2, 3, 4, 5))
+print(sumar(1, 2, 3, 4, 5, 6, 7, 8, 9, 10))
